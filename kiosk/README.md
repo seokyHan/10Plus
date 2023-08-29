@@ -8,10 +8,10 @@
 
 ## 프로젝트 개요
 
-본 프로젝트는 웹 통신을 이용한 IOT 스마트홈 구축 이란 주제로 잔행된 **2021 캡스톤디자인 프로젝트 중 서브프로젝트** 입니다.  
+본 프로젝트는 웹 통신을 이용한 IOT 스마트홈 구축 이란 주제로 잔행된 **2021 캡스톤디자인 프로젝트** 입니다.  
 프로젝트의 **목표는 기존 거주지의 스마트홈화** 이며 이러한 목표에 맞게 사용자가 이용하는 IOT 기기, 웹사이트, 가정에 설치되는 인터폰 형식의 스마트 디바이스를 제작하였습니다.  
 본 글에서 설명하는 프로젝트는 **스마트 디바이스(라즈베리파이)** 터치스크린에 제공되는 **웹 애플리케이션**입니다.
-개발 기간은 1개월이 소요되었으며 1인 개발로 진행하였습니다.
+개발 기간은 1개월이 소요되었습니다.
 
 ## 개발방식
 
@@ -70,25 +70,6 @@ router.get('/', (req, res, next) => {
 
 - 서버로부터 인증번호 표출 이벤트를 받기 위해 Socket.io를 사용하였습니다.
 
-## 제공화면
-
-> 모든 화면은 라즈베리파이 터치스크린 사이즈(800x480)에 맞게 제작하였습니다.
-
-메인화면
-
-<img src = "https://github.com/ye0reum/ye0reum.github.io/blob/master/src/images/project-imgs/10plus-kiosk/%EB%A9%94%EC%9D%B8%ED%99%94%EB%A9%B4.png?raw=true" width="80%">
-
-로그보기 화면
-
-<img src = "https://github.com/ye0reum/ye0reum.github.io/blob/master/src/images/project-imgs/10plus-kiosk/%EB%A1%9C%EA%B7%B8%EB%B3%B4%EA%B8%B0.png?raw=true" width="80%">
-
-새로고침 설정화면
-
-<img src = "https://github.com/ye0reum/ye0reum.github.io/blob/master/src/images/project-imgs/10plus-kiosk/%EC%83%88%EB%A1%9C%EA%B3%A0%EC%B9%A8%EC%84%A4%EC%A0%95.png?raw=true" width="80%">
-
-테마 설정화면
-
-<img src = "https://github.com/ye0reum/ye0reum.github.io/blob/master/src/images/project-imgs/10plus-kiosk/%ED%85%8C%EB%A7%88%EC%84%A4%EC%A0%95.png?raw=true" width="80%">
 
 ## 주요기능
 
